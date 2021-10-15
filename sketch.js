@@ -67,6 +67,7 @@ space("spaceImg");
 if (touches.length >0 || keydown("space")) {
     rocketBurstSound.play()
     bullet.velocityY = 2
+    obstaclesGroup.destroyEach();
     touches = [];  
  }
 
